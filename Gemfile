@@ -8,7 +8,7 @@ gem "rails", "~> 7.0.2", ">= 7.0.2.4"
 gem 'jquery-rails'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
-
+gem 'devise'
 # Use sqlite3 as the database for Active Record
 gem "pg"
 
