@@ -6,6 +6,7 @@ gem 'bootstrap', '~> 5.2.0'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.2", ">= 7.0.2.4"
 gem 'jquery-rails'
+gem 'geocoder', '~> 1.3', '>= 1.3.7'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails', '~> 3.0', '>= 3.0.4'
 gem 'devise'

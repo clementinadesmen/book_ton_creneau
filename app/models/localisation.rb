@@ -1,0 +1,3 @@
+class Localisation < ApplicationRecord
+   
+end
