@@ -6,6 +6,8 @@ class User < ApplicationRecord
 
   geocoded_by :adress
   after_validation :geocode
-     
+     def adress 
+      [rue,ville,postal].compact.join(',')
+     end
   
 end
