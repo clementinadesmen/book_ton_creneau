@@ -1,0 +1,15 @@
+
+<% provide(:title, "Localisation") %>
+
+<%= month_calendar(events: @meetings) do |date,meetings| %>
+  <div class="day">
+    <%= date.day %>
+  </div>
+  <% meetings.each do |meeting|%>
+    <div class="card-header">
+      <div class="card-title">
+        <%= link_to meeting.name, meeting %>
+      </div>
+    </div>
+  <% end %>
+<% end %>
